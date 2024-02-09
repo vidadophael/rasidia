@@ -14,7 +14,7 @@ header {
     gap: 15px;
 }
 
-.menu__nav {
+.menu-nav {
     align-items: center;
     background-color: #37373F;
     border-radius: 4px;
@@ -24,10 +24,10 @@ header {
     justify-content: center;
     padding: 20px 60px;
 }
-.menu__nav span {
+.menu-nav span {
     transition: all .3s ease-in-out;
 }
-.menu__nav span:hover {
+.menu-nav span:hover {
     color: #5fd854;
 }
 
@@ -36,7 +36,7 @@ header {
  }
 
  /*menu-icons*/
- .menu__social {
+ .menu-social {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -44,15 +44,15 @@ header {
     opacity: 45%;
  }
 
- .menu__social a img {
+ .menu-social a img {
     transition: all .2s ease-in-out;
  }
 
- .menu__social a img:hover {
+ .menu-social a img:hover {
     transform: scale(1.1);
  }
 
- .menu__navigation {
+ .menu-navigation {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -61,13 +61,13 @@ header {
 
  /*responsive*/
  @media (min-width: 576px) {
-    .menu__nav {
+    .menu-nav {
         border-radius: 100px;
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 30px;
     }
-    .menu__social {
+    .menu-social {
         justify-content: space-around;
     }
  } 
@@ -80,7 +80,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
     }
-    .menu__social {
+    .menu-social {
         padding-left: 30%;
         width: 75%;
     }
@@ -90,7 +90,7 @@ header {
     header {
         padding: 100px;
     }
-    .menu__logo {
+    .menu-logo {
         align-items: center;
         display: flex;
         flex-direction: row;
