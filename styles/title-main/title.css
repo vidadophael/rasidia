@@ -1,6 +1,6 @@
 /*title main*/
 .title {
-    padding: 0 100px 40px;
+    padding: 0 40px 40px;
 }
 .title h1 {
     font-size: 3rem;
@@ -15,7 +15,7 @@
  
  @media (min-width: 768px) {
      .title {
-         padding: 0 100px 60px;
+         padding: 0 60px 60px;
      }
 
     .title h1 {
