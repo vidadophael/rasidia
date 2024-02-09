@@ -1,0 +1,125 @@
+/*FONT-CLASS*/
+.roboto-thin {
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-light {
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.roboto-black {
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.roboto-thin-italic {
+    font-weight: 100;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: -1.5%;
+}
+
+h2 {
+    font-size: 3.75rem;
+    letter-spacing: -0.5%;
+}
+
+h3 {
+    font-size: 3rem;
+    letter-spacing: 0;
+}
+
+h4 {
+    font-size: 2.125rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+}
+
+h6 {
+    font-size: 1.25rem;
+    letter-spacing: 0.15%;
+}
+
+a {
+    color: unset;
+}
+
+.subtitle1 {
+    font-size: 1rem;
+    letter-spacing: 0.15%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subtitle2 {
+    font-size: 0.8125rem;
+    letter-spacing: 0.1%;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.body1{
+    font-size: 1rem;
+    letter-spacing: 0.5%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body2{
+    font-size: 0.8125rem;
+    letter-spacing: 0.5%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button {
+    font-size: 0.8125rem;
+    letter-spacing: 1.25%;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+span {
+    font-size: 0.8125rem;
+    letter-spacing: 1.25%;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.caption {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.overline {
+    font-size: 0.625rem;
+    letter-spacing: 1.5%;
+    font-weight: 400;
+    font-style: normal;
+}
