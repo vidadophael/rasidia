@@ -17,9 +17,9 @@
 /*responsive*/
 @media (min-width: 576px) {
     .tech-container {
+        align-items: flex-start;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         width: 100%;
     }
     .gap-icons {
@@ -42,8 +42,8 @@
         justify-content: space-between;
     }
     .gap-icons {
-        padding-top: 0;
         padding: 0 10px;
+        padding-top: 0;
     }
     .tech {
         padding: 0 100px 100px;
