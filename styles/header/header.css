@@ -1,3 +1,8 @@
+/*header*/
+header {
+    padding: 40px;
+}
+
 #green {
     color: #5fd854;
     text-transform: none;
@@ -57,9 +62,6 @@
 
  /*responsive*/
  @media (min-width: 576px) {
-    header {
-        padding: 40px;
-    }
     .menu-nav {
         border-radius: 100px;
         flex-direction: row;
@@ -73,7 +75,7 @@
  
  @media (min-width: 768px) {
     header {
-        padding: 60px;
+        padding: 50px 60px 60px 60px;
     }
     .menu {
         flex-direction: row;
@@ -83,11 +85,14 @@
         padding-left: 30%;
         width: 75%;
     }
+    .menu-social a:last-child {
+        padding-right: 38px;
+    }
  }
 
  @media (min-width: 900px) {
     header {
-        padding: 100px;
+        padding: 50px 100px 25px 100px;
     }
     .menu-logo {
         align-items: center;
@@ -95,6 +100,7 @@
         flex-direction: row;
         gap: 25px;
     }
+    
     .caption, .caption span {
         font-size: 1rem;
     }

@@ -1,4 +1,8 @@
 /*icons-work*/
+.tech {
+    padding: 0 40px 40px;
+}
+
 .icons-work {
     display: flex;
     flex-direction: row;
@@ -24,9 +28,6 @@
     }
     .gap-icons {
         padding-top: 25px;
-    }
-    .tech {
-        padding: 0 40px 40px;
     }
 }
 
