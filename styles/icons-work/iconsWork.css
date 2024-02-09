@@ -1,0 +1,51 @@
+/*icons-work*/
+.icons-work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.gap-icons {
+    padding-top: 25px;
+}
+
+.icon-padding {
+    padding: 10px;
+}
+
+/*responsive*/
+@media (min-width: 576px) {
+    .tech-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .gap-icons {
+        padding-top: 25px;
+    }
+    .tech {
+        padding: 0 40px 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tech {
+        padding: 0 60px 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .tech-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .gap-icons {
+        padding-top: 0;
+        padding: 0 10px;
+    }
+    .tech {
+        padding: 0 100px 100px;
+    }
+}
