@@ -13,28 +13,40 @@
     margin: auto;
 }
 
-
-.card img {
-    width: 150px;
-    border-radius: 1000px;
+.card-imagem {
+    background-position: center;
+    background-size: cover;
     border: 1px solid #4141418a;
-    transition: all .2s ease-in-out;
-}
-.card img:hover {
     border-radius: 10px;
+    height: 100px;
+    transition: all .2s ease-in-out;
+    width: 200px;
+}
+#rasidia {
+    background-image: url('../../assets/images/img-project-site.svg');
+}
+#angela {
+    background-image: url('../../assets/images/angela.svg');
+
+}
+
+
+.card-imagem:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
     
 }
 .card {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    max-width: 355px;
-    min-height: 120px;
     border: 1px solid #414141;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 355px;
+    min-height: 120px;
     padding: 30px;
     transition: all 0.2s ease-in-out;
 }
@@ -44,15 +56,15 @@
 
 
 .card-content {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 12px;
-    align-items: flex-start;
+    justify-content: center;
 }
 .card-content p {
-    text-align: start;
     opacity: 85%;
+    text-align: start;
 }
 
 .card-content .roboto-medium {
@@ -60,22 +72,22 @@
 }
 .card-content .card-link {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     gap: 30px;
+    justify-content: space-between;
     padding-top: 15px;
     width: 100%;
 }
 
 .card-link a {
+    color: #14F800;
     opacity: 75%;
     transition: all .2s ease-in-out;
-    color: #14F800;
 }
 .card-link a:hover {
     cursor: pointer;
-    opacity: 100%;
     font-weight: 500;
+    opacity: 100%;
 }
 
 
