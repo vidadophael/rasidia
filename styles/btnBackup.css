@@ -1,0 +1,23 @@
+/*Up arrow button*/
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.scroll-top .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-bottom-width: 15px;
+    position: relative;
+}
+
+/* Estilo extra para a seta */
+.scroll-top .arrow-up:hover {
+    border-bottom-color: #ccc;
+    cursor: pointer;
+}
