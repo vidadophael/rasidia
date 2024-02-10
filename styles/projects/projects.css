@@ -58,7 +58,7 @@
 .card-content .roboto-medium {
     text-align: start;
 }
-.card-link {
+.card-content .card-link {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -95,6 +95,8 @@
     .card {
         flex-direction: row;
     }
+
+    
 }
 
 @media (min-width: 992px) {
@@ -103,6 +105,9 @@
     }
     .card {
         max-width: 455px;
+    }
+    .card-content .card-link {
+        width: 65%;
     }
         
 }
