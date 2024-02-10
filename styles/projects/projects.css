@@ -80,12 +80,13 @@
 
 
 /*responsive*/
-@media (min-width: 576px) {
+@media (min-width: 200px) {
     .projects {
         padding: 0 40px 40px;
     }
-    
-    
+    .card {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 768px) {
