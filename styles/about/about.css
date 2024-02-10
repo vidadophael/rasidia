@@ -1,0 +1,41 @@
+.aboutMe {
+    padding: 0 50px;
+}
+.aboutMe-content p {
+    padding-top: 25px;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+.aboutMe img {
+    width: 450px;
+}
+
+
+/*responsive*/
+@media (min-width: 200px) {
+    .aboutMe {
+        padding: 40px 40px 40px;
+    } 
+    .aboutMe img {
+        width: 150px;
+    } 
+}
+
+@media (min-width: 768px) {
+    .aboutMe{
+        padding: 60px 60px 60px;
+    }
+
+    .aboutMe img {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .aboutMe{
+        padding: 80px 100px 100px;
+    } 
+    .aboutMe img {
+        width: 450px;
+    }       
+}
