@@ -1,0 +1,98 @@
+/*project*/
+.projects {
+    padding: 80px 20px;
+}
+
+.projects-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.card img {
+    width: 150px;
+    border-radius: 1000px;
+    padding-top: 10px;
+    border: 1px solid #4141418a;
+    transition: all .2s ease-in-out;
+}
+.card img:hover {
+    border-radius: 10px;
+    
+}
+.card {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 205px;
+    max-height: 670px;
+    border: 1px solid #414141;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+}
+.card-content p {
+    text-align: center;
+    opacity: 85%;
+}
+.card-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.card-link a {
+    opacity: 75%;
+    transition: all .2s ease-in-out;
+    color: #14F800;
+}
+.card-link a:hover {
+    cursor: pointer;
+    opacity: 100%;
+    font-weight: 500;
+}
+
+/*responsive*/
+@media (min-width: 576px) {
+    .projects {
+        padding-top: 25px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .projects{
+        padding: 0 60px 60px;
+    }
+    .projects-cards {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .projects{
+        padding: 0 100px 100px;
+    }
+}
