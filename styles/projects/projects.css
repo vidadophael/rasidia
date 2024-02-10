@@ -17,7 +17,6 @@
 .card img {
     width: 150px;
     border-radius: 1000px;
-    padding-top: 10px;
     border: 1px solid #4141418a;
     transition: all .2s ease-in-out;
 }
@@ -28,11 +27,11 @@
 .card {
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 205px;
-    max-height: 670px;
+    max-width: 355px;
+    min-height: 120px;
     border: 1px solid #414141;
     border-radius: 10px;
     gap: 15px;
@@ -49,11 +48,15 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 12px;
-    align-items: center;
+    align-items: flex-start;
 }
 .card-content p {
-    text-align: center;
+    text-align: start;
     opacity: 85%;
+}
+
+.card-content .roboto-medium {
+    text-align: start;
 }
 .card-link {
     display: flex;
@@ -61,6 +64,7 @@
     flex-direction: row;
     gap: 30px;
     padding-top: 15px;
+    width: 100%;
 }
 
 .card-link a {
@@ -74,11 +78,13 @@
     font-weight: 500;
 }
 
+
 /*responsive*/
 @media (min-width: 576px) {
     .projects {
-        padding-top: 25px;
+        padding: 0 40px 40px;
     }
+    
     
 }
 
@@ -86,13 +92,14 @@
     .projects{
         padding: 0 60px 60px;
     }
-    .projects-cards {
-        justify-content: space-between;
-    }
 }
 
 @media (min-width: 992px) {
     .projects{
         padding: 0 100px 100px;
     }
+    .card {
+        max-width: 455px;
+    }
+        
 }
