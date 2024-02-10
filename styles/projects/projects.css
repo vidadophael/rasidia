@@ -8,7 +8,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
 }
@@ -27,7 +27,7 @@
 .card {
     margin-top: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     max-width: 355px;
@@ -46,7 +46,7 @@
 .card-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 12px;
     align-items: flex-start;
 }
@@ -84,14 +84,16 @@
     .projects {
         padding: 0 40px 40px;
     }
-    .card {
-        flex-direction: column;
-    }
+    
 }
 
 @media (min-width: 768px) {
     .projects{
         padding: 0 60px 60px;
+    }
+    
+    .card {
+        flex-direction: row;
     }
 }
 
