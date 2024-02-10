@@ -1,0 +1,120 @@
+.contact {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-box__email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid #a4a4a42c;
+    padding: 25px;
+    gap: 25px;
+}
+
+.contact-action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.contact-input input {
+    border-radius: 4px;
+    border: 1px solid #A4A4A42C;
+    padding: 10px;
+    width: 90%;
+}
+
+.contact-input button {
+    padding: 10px 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: #A4A4A42C;
+}
+
+/*contacts icons and qrcode*/
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-icons__social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.contact-icons__social a {
+    transition: all .2s ease-in-out;
+}
+.contact-icons__social a:hover {
+    transform: scale(1.5);
+}
+
+.contact-whatsapp {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-whatsapp-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+/*responsive*/
+@media (min-width: 206px) {
+    .contact {
+        padding: 40px 40px 40px;
+    }
+    .contact-input {
+        flex-direction: row;
+    }
+    .contact-icons {
+        padding-top: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact{
+        padding: 60px 60px 60px;
+    }
+    .contact-box__email {
+        width: 50%;
+    }
+    .contact-context {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    .contact-icons {
+        width: 50%;
+        padding-top: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact{
+        padding: 80px 100px 100px;
+    }       
+}
