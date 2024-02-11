@@ -27,9 +27,10 @@
 }
 #angela {
     background-image: url('../../assets/images/angela.svg');
-
 }
-
+#imc {
+    background-image: url('../../assets/images/imc.svg');
+}
 
 .card-imagem:hover {
     border-radius: 10px;
@@ -48,12 +49,7 @@
     max-width: 355px;
     min-height: 120px;
     padding: 30px;
-    transition: all 0.2s ease-in-out;
 }
-.card:hover {
-    transform: scale(1.05);
-}
-
 
 .card-content {
     align-items: flex-start;
